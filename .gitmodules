@@ -1,12 +1,12 @@
 [submodule "hub_themes"]
 	path = e2edocs/hub/_themes
-	url = https://sitexpci:cc4b60ae3919b5b2a70bf5f9388022ec0db9460d@github.com/Microsoft/templates.docs.msft
+	url = https://github.com/Microsoft/templates.docs.msft
 	branch = master
 [submodule "conceptual_themes"]
 	path = e2edocs/conceptual/_themes
-	url = https://sitexpci:cc4b60ae3919b5b2a70bf5f9388022ec0db9460d@github.com/Microsoft/templates.docs.msft
+	url = https://github.com/Microsoft/templates.docs.msft
 	branch = master
 [submodule "reference_themes"]
 	path = e2edocs/reference/_themes
-	url = https://sitexpci:cc4b60ae3919b5b2a70bf5f9388022ec0db9460d@github.com/Microsoft/templates.docs.msft
+	url = https://github.com/Microsoft/templates.docs.msft
 	branch = master
