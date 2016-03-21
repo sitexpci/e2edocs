@@ -1,0 +1,32 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.yml", "md/**/*.md", "*.md", "toc.yml"
+        ],
+        "exclude": [
+          "**/obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "_themes/**"
+        ],
+        "exclude": [
+          "**/obj/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "breadcrumb_path": "/hub/breadcrumb.json",
+      "ms.locale": "en-us"
+    },
+    "template": [
+      "docs.html"
+    ],
+    "dest": "reference"
+  }
+}

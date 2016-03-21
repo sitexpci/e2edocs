@@ -1,0 +1,32 @@
+{
+  "build": {
+    "content":
+      [
+        {
+          "files": ["*.json","*.md"],
+          "exclude": ["**/obj/**","*-operations.md"]
+        }
+      ],
+    "resource": [
+        {
+          "files": ["**/images/**","_themes/**"],
+          "exclude": ["**/obj/**","_themes/DocPacker/**"]
+        }
+    ],
+    "globalMetadata": {
+        "ROBOTS": "INDEX, FOLLOW",
+        "_appTitle": "Hello Rest Api",
+        "_mockServerUrl": "https://apiexproxy.azurewebsites.net/svc"
+    },
+    "overwrite":
+      [
+        {
+          "files": ["*-operations.md"]
+        }
+      ],
+    "externalReference": [
+    ],
+    "dest": "restapi",
+    "template": "docs.html"
+  }
+}

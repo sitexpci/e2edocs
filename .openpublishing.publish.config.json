@@ -1,0 +1,35 @@
+{
+	"build_entry_point" : "docs.ps1",
+	"docsets_to_publish" : [{
+			"docset_name" : "e2edocs",
+			"build_output_subfolder" : "e2edocs/hub",
+			"locale" : "en-us",
+			"version" : 0,
+			"open_to_public_contributors" : true,
+			"type_mapping" : {
+				"Conceptual" : "Content"
+			}
+		}, {
+			"docset_name" : "e2econceptual",
+			"build_output_subfolder" : "e2edocs/conceptual",
+			"locale" : "en-us",
+			"version" : 0,
+			"open_to_public_contributors" : true,
+			"type_mapping" : {
+				"Conceptual" : "Content"
+			}
+		}, {
+			"docset_name" : "e2ereference",
+			"build_output_subfolder" : "e2edocs/reference",
+			"locale" : "en-us",
+			"version" : 0,
+			"open_to_public_contributors" : true,
+			"type_mapping" : {
+				"Conceptual" : "Content",
+				"ManagedReference" : "Content"
+			}
+		}
+	],
+	"notification_subscribers" : [""],
+	"branches_to_filter" : []
+}
