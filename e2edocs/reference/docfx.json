@@ -6,17 +6,24 @@
           "**/*.yml", "md/**/*.md", "*.md", "toc.yml"
         ],
         "exclude": [
-          "**/obj/**"
+          "**/obj/**",
+          "_themes/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.html",
           "_themes/**"
         ],
         "exclude": [
-          "**/obj/**"
+          "**/obj/**",
+          "_themes/**"
         ]
       }
     ],
